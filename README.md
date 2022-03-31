@@ -11,6 +11,23 @@
 * [Development Procedure](#Development-Procedure)
 
 ## Preview
+![main](https://user-images.githubusercontent.com/100736557/161002183-2ace141c-5e65-4e6b-8fee-3ff1d154052d.PNG)
+* The first scene open the application.
+* Player able to enter the game by click on the button.
+
+![main-button-dialog](https://user-images.githubusercontent.com/100736557/161002407-6cbf79e7-8a65-4765-95be-056615f951a9.PNG)
+* The difficulty dialog layout.
+* It appear when player click on the button in the main scene.
+* Player able to select one of the difficulty and begin the game.
+
+![sample-game-play-1](https://user-images.githubusercontent.com/100736557/161002500-bef2e307-3a20-43a8-8462-bd26133ebb27.PNG)
+* Sample view of the game difficulty Easy.
+* Player able to click on the puzzle block in the scene.
+* The puzzle block will move if there is any empty space around it.
+* When the puzzle are located in its expected locations, it will display green border.
+
+![sample-game-play-2](https://user-images.githubusercontent.com/100736557/161002707-9f567f2d-c7a9-4d13-8d1d-35d391ba6d55.PNG)
+* When player successfully locate all puzzle, it will display a success dialog and a back button.
 
 ## Installation
 * You can download the file using ```git clone``` with HTTPS or 
