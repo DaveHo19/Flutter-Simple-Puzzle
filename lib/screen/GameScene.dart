@@ -155,6 +155,7 @@ class _MyGameScreenState extends State<GameScene> {
 
     if (result) {
       showDialog(
+          barrierDismissible: false,
           context: context,
           builder: (BuildContext builder) => AlertDialog(
                 title: const Text("Congratulations!"),
@@ -162,7 +163,15 @@ class _MyGameScreenState extends State<GameScene> {
                   width: 300,
                   height: 300,
                   padding: const EdgeInsets.all(8.0),
-                  child: Center(child: Text("You Solved It in $counter!!")),
+                  child: Center(child: Column(children: [ 
+                    Text("You Solved It in $counter!!"),
+                    ElevatedButton(
+                      child: const Text("Return"),
+                      onPressed: ()=>{
+                        Navigator.pop(context),
+                        Navigator.pop(context),
+                      }, )
+                   ])),
                 ),
               ));
     }
