@@ -32,6 +32,7 @@
 ## Installation
 * You can download the file using ```git clone``` with HTTPS or 
 ```https://github.com/DaveHo19/flutter_simple_puzzle.git```
+* If you having issues on packages, do ```flutter upgrade --force``` in terminals. 
 * The required ibrary will be :
   * dart:math
 
